@@ -3,7 +3,15 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  firebase: {
+    apiKey: 'AIzaSyCbxOSWoctDpt-LhRzvi0GrmXKjKggAXas',
+    authDomain: 'dauntless-builds.firebaseapp.com',
+    databaseURL: 'https://dauntless-builds.firebaseio.com',
+    projectId: 'dauntless-builds',
+    storageBucket: 'dauntless-builds.appspot.com',
+    messagingSenderId: '924945090932'
+  }
 };
 
 /*
